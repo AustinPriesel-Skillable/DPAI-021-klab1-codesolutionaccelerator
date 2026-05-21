@@ -47,7 +47,7 @@ module cosmosAccount 'br/public:avm/res/document-db/database-account:0.18.0' = {
   name: take('avm.res.document-db.database-account.${name}', 64)
   params: {
     name: name
-    enableAnalyticalStorage: true
+    enableAnalyticalStorage: false
     location: location
     minimumTlsVersion: 'Tls12'
     defaultConsistencyLevel: 'Session'
